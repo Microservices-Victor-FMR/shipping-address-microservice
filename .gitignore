@@ -2,7 +2,7 @@
 /dist
 /node_modules
 /build
-
+hexagonal.txt
 # Logs
 logs
 *.log
