@@ -1,7 +1,7 @@
-import { IsMongoId, IsNotEmpty } from "class-validator";
+import { IsMongoId, IsNotEmpty, IsUUID } from 'class-validator';
 
-export class FindOneByIdShippingAddressDto{
-    @IsMongoId()
-    @IsNotEmpty()
-    id: string
+export class FindOneByIdDto {
+  @IsNotEmpty()
+  @IsMongoId()
+  id: string;
 }
